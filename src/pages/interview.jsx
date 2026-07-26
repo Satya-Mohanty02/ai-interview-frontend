@@ -129,7 +129,7 @@ function Interview() {
 
                 />
 
-                <Timer seconds={120} />
+               <Timer seconds={90} currentQuestion={index} />
 
                 <QuestionCard
 
