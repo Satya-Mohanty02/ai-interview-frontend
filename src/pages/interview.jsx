@@ -14,7 +14,7 @@ function Interview() {
     const navigate = useNavigate();
     const location = useLocation();
 
-    // Questions received from Home.jsx
+    // Questions from home
     const questions = location.state?.questions || [];
 
     const [index, setIndex] = useState(0);
